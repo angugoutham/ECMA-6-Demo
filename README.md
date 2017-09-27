@@ -1,1 +1,1 @@
-# ECMA-6-Demo
+# ECMAScript6 (ES6)-Demo
