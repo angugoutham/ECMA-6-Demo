@@ -1,4 +1,4 @@
-//Default Parameter Values 
+//Parameter passing in ECMA Script JS 6
 
 var Example=function(name="Scott"){
    // return name+"may";
@@ -20,8 +20,7 @@ console.log(b);
 console.log(c);
 
 
-function apiExample(url="namely",{cache=true,data="angu"})
-{
+function apiExample(url="namely",{cache=true,data="angu"}){
     return {data,
            url}
 }

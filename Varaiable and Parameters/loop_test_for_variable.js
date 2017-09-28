@@ -1,7 +1,6 @@
 //loop test for let and var
 
-function letTest()
-{
+function letTest(){
 const arr = [];
 for (let i=0; i < 3; i++) {
     arr.push(() => i);
@@ -10,8 +9,8 @@ arr.map(x => x()); // [0,1,2]
 console.log("letTest",arr.map(x => x()));
 }
 
-function constTest()
-{
+function constTest(){
+    
 const arr = [];
 for (const i=0; i < 3; i++) {
   console.log(i);
@@ -21,8 +20,7 @@ arr.map(x => x()); // [0,1,2]
 console.log("constTest",arr.map(x => x()));
 }
 
-function varTest()
-{
+function varTest(){
 const arr = [];
 for (var i=0; i < 3; i++) {
     console.log(i);
