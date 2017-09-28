@@ -53,7 +53,7 @@ let makeEveryOneWork= function (...Person){
     }
     
     
-    console.log(results);
+    console.log("The results",results);
     console.log(empResults);
 }
 
