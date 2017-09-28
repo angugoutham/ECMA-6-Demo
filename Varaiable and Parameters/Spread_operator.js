@@ -1,5 +1,6 @@
-let doWork=function(x,y,z)
-{
+// Example to illustriate the Spread operator 
+
+let doWork=function(x,y,z){
     
     console.log("Can Spread an array across Parameters")
     
@@ -8,6 +9,7 @@ let doWork=function(x,y,z)
 
 var result=doWork(...[5,4,3]);
 console.log("expexcted 12",result);
+
 
 
 let doWork1=function(){
